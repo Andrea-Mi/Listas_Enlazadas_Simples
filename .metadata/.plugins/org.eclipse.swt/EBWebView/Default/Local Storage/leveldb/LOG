@@ -1,2 +1,3 @@
-2026/03/21-15:23:03.881 201c Creating DB C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
-2026/03/21-15:23:03.974 201c Reusing MANIFEST C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/27-19:46:25.698 85c Reusing MANIFEST C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/27-19:46:25.722 85c Recovering log #3
+2026/03/27-19:46:25.728 85c Reusing old log C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 

@@ -1,2 +1,3 @@
-2026/03/21-15:23:03.823 12a4 Creating DB C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db since it was missing.
-2026/03/21-15:23:03.848 12a4 Reusing MANIFEST C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/03/27-19:46:25.563 414 Reusing MANIFEST C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/03/27-19:46:25.564 414 Recovering log #3
+2026/03/27-19:46:25.564 414 Reusing old log C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 

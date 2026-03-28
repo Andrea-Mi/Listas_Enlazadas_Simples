@@ -104,10 +104,19 @@ public class SinglyLinkedList<T> {
      * @param value valor a buscar
      * @return cantidad de ocurrencias encontradas
      */
+    
     public int countOccurrences(T value) {
-        throw new UnsupportedOperationException(
-                "TODO RETO: Implementar countOccurrences(T value) "
-                + "en SinglyLinkedList.");
+    	int count = 0;
+        SimpleNode<T> current = head;
+        
+        while (current != null) {
+            if (isSameValue(current.getValue(), value)) {
+                count++;
+            }
+            current = current.getNext();
+        }
+        
+        return count;
     }
 
     @Override
