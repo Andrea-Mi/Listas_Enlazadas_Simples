@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\ListasEnlazadasClase\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2630771520.index
+2516930704.index
