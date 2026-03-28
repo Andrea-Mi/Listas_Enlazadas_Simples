@@ -158,6 +158,35 @@ public class SinglyLinkedList<T> {
         head = previous;
     }
     
+    
+    /**
+     * RETO 4 
+     * Eliminar dublicadas 	
+     */
+    public void removeDuplicadas() {
+    	SimpleNode<T> current = head;
+    	while (current != null) {
+    		SimpleNode<T> runner = current;
+    		
+    		while (runner.getNext() != null) {
+    			if (isSameValue(current.getValue(), runner.getNext().getValue())) {
+    				
+    				runner.setNext(runner.getNext().getNext());
+    				size--;
+    			}else {
+    				
+    				runner = runner.getNext();
+    			}
+    			
+    			if (runner.getNext() == null) {
+    				tail = runner;
+    			}
+    		}
+    		current = current.getNext();
+    	}
+    }   
+
+    
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder("[");
