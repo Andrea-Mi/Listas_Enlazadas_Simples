@@ -128,9 +128,35 @@ public class SinglyLinkedList<T> {
     	
         head = null; 
         tail = null;    
-        size = 0;       
-        
+        size = 0; 
         }
+    
+    /**
+     * RETO 3
+     * Invertir la lista: cambiar el orden de los nodos.
+     * Ejemplo: 2→4→5→6 se convierte en 6→5→4→2
+     *
+     */
+    
+    public void reverse() {
+        //revisamos si la lista esta vacia o solo tiene un nodo
+        if (head == null || head.getNext() == null) {
+            return;
+        }
+        SimpleNode<T> previous = null;
+        SimpleNode<T> current = head;
+        SimpleNode<T> next = null;
+
+        tail = head;
+
+        while (current != null) {
+            next = current.getNext();
+            current.setNext(previous);
+            previous = current;
+            current = next;
+        }
+        head = previous;
+    }
     
     @Override
     public String toString() {
